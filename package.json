@@ -1,0 +1,21 @@
+{
+  "name": "multipass-services",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0",
+    "serve-favicon": "^2.3.2"
+  },
+  "devDependencies": {
+    "debug": "latest"
+  }
+}
